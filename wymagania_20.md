@@ -2,3 +2,39 @@ Program ma usprawnić nadzór nad pracą pracowników
 klient chce widzieć które prace sa w trakcie ktore zrobione
 data 07.10.2024r.
 aplikacja webowa na telefon
+
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid h-100 w-100 bg-light">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Simple to do</span>
+            <img src="profile.jpg" alt="profile picture" class="rounded-circle" height="60" />
+          </div>
+        </nav>
+      <div class="d-flex justify-content-center w-100">
+        <ul class="list-group list-group-flush w-25 ">
+          <li class="list-group-item list-group-item-success">A</li>
+          <li class="list-group-item">B</li>
+          <li class="list-group-item">C</li>
+        </ul>
+        <ul class="list-group list-group-flush w-25 ">
+          <li class="list-group-item list-group-item-warning">A</li>
+          <li class="list-group-item">B</li>
+        </ul>
+        <ul class="list-group list-group-flush w-25  ">
+          <li class="list-group-item list-group-item-danger">A</li>
+        </ul>  
+      </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
